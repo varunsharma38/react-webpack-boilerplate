@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Boilerplate code for development with React and Webpack",
 	"scripts": {
-		"start": "webpack-dev-server --open --mode development",
+		"start": "webpack-dev-server --mode development",
 		"build": "webpack --mode production"
 	},
 	"repository": {
@@ -19,7 +19,10 @@
 	"dependencies": {
 		"bootstrap": "^4.3.1",
 		"react": "^16.8.6",
-		"react-dom": "^16.8.6"
+		"react-dom": "^16.8.6",
+		"react-redux": "^7.1.1",
+		"redux": "^4.0.4",
+		"redux-saga": "^1.1.1"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.4.4",
